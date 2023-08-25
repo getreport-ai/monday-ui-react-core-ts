@@ -54,7 +54,6 @@ const publishedTSComponents = {
   Search: "components/Search/Search",
   Skeleton: "components/Skeleton/Skeleton",
   Steps: "components/Steps/Steps",
-  DatePicker: "components/DatePicker/DatePicker",
   Tab: "components/Tabs/Tab/Tab",
   TabPanels: "components/Tabs/TabPanels/TabPanels",
   TabsContext: "components/Tabs/TabsContext/TabsContext",
