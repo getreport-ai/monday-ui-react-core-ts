@@ -1,11 +1,12 @@
 function isThemesSupported() {
-  try {
-    if (!window.CSS || !window.CSS.supports) return false;
-    // check if browser supports basic var value usage
-    return window.CSS.supports("color", "var(--fake-var)");
-  } catch (e) {
-    return false;
-  }
+  // try {
+  //   if (!window.CSS || !window.CSS.supports) return false;
+  //   // check if browser supports basic var value usage
+  //   return window.CSS.supports("color", "var(--fake-var)");
+  // } catch (e) {
+  //   return false;
+  // }
+  return true;
 }
 
 export function getCSSVar(varName) {
